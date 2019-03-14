@@ -342,9 +342,9 @@ function sortDigitNamesByNumericOrder(arr) {
  *   [ 1, 10, 100, 1000 ]  => 1111
  */
 function getItemsSum(arr) {
-   return arr.reduce((acc,elem) => acc + elem, 0);
+   return arr.reduce((sum,elem) => sum + elem, 0);
 }
- 
+   
 /** 
  * Returns the number of all falsy value in the specified array
  * 
